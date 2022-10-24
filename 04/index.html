@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/tab-icon.ico" type="image/x-icon">
+    <title>HTML lesson 12</title>
+</head>
+<body>
+<form action="#" method="get">
+    <label for="username">Имя</label>
+    <input id="username" type="text" name="name" tabindex="1">
+    <br>
+    <label for="usersurname">Фамилия</label>
+    <input id="usersurname" type="text" name="surname" tabindex="2">
+    <br>
+    <label>Телефон
+        <input type="tel" name="userphone" tabindex="3"></label>
+    <br>
+    <label>Email
+        <input type="email" name="useremail" tabindex="4"></label>
+    <br>
+    <label for="datet">Дата и время</label>
+    <input id="datet" type="datetime-local" name="userdata" tabindex="5">
+    <br>
+    <br>
+    <fieldset>
+        <legend>Выберете количество огурцов для доставки</legend>
+        <label>
+            <input type="radio" name="cucumbers" tabindex="6">
+        </label>1 огурец
+        <label>
+            <input type="radio" name="cucumbers" tabindex="6">
+        </label>2 огурца
+        <label>
+            <input type="radio" name="cucumbers" tabindex="6">
+        </label>3 огурца
+    </fieldset>
+    <br>
+    <input type="submit" tabindex="7">
+    <input type="reset" tabindex="8">
+</form>
+</body>
+</html>
