@@ -1,0 +1,20 @@
+.content__title {
+    font-style: italic;
+    color: brown;
+    font-size: 3rem;
+    line-height: 200%;
+}
+
+.content__text {
+    text-indent: 25px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content__text2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    text-indent: 25px;
+}
