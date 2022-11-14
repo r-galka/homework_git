@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Bold.woff2") format('woff2'),
+    url("../fonts/Roboto-Bold.woff") format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Regular.woff2") format('woff2'),
+    url("../fonts/Roboto-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.uptitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: -3px;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2em;
+    text-indent: 20px;
+}
+
+.subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.25em;
+    text-transform: capitalize;
+    text-indent: 20px;
+}
+
+.content, .list {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 150%;
+    word-spacing: 3px;
+    text-indent: 20px;
+}
+
+a.link {
+    color: deeppink;
+    text-decoration: underline darkkhaki;
+}
+
+span.txt_crossed {
+    text-decoration: line-through;
+}
+
+span.details {
+    font-weight: bold;
+}
+
+.list {
+    text-shadow: -5px -5px 5px #9f9a9a;
+}
+
+
+
