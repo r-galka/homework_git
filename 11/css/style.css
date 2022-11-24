@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Black.woff2") format('woff2'),
+    url("../fonts/Roboto-Black.woff") format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Regular.woff2") format('woff2'),
+    url("../fonts/Roboto-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #e0dada;
+}
+
+.ny {
+    padding: 50px 0 0 50px;
+}
+
+.card__title {
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    color: #02133C;
+    margin: 0 0 20px 0;
+    max-height: 30px;
+    overflow: hidden;
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.ny__card {
+    max-width: 324px;
+    max-height: 340px;
+    border: 1px solid rgba(183, 183, 197, 0.89);
+    box-shadow: 0 0 6px 1px rgba(183, 183, 197, 0.89);
+    padding: 50px 44px;
+    margin: 0 0 24px 0;
+    background-color: white;
+}
+
+.card__content {
+    text-align: center;
+}
+
+.card__image {
+    margin: 0 0 30px 0;
+}
+
+
