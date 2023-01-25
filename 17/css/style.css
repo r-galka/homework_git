@@ -1,0 +1,11 @@
+.block {
+    font-size: 20px;
+    color: red;
+    animation: color-block 2s linear infinite alternate-reverse;
+    }
+
+@keyframes color-block {
+     100% {
+        color: black;
+    }
+}
